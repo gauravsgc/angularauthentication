@@ -34,7 +34,7 @@ console.log(this.responseData.accessToken);
 localStorage.setItem('Token',this.responseData.accessToken);
 
 
-this.router.navigate(['']);
+this.router.navigate(['/home']);
      }
       
     })

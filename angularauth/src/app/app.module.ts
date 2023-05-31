@@ -10,13 +10,15 @@ import { NavComponent } from './nav/nav.component';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { ErrorpageComponent } from './errorpage/errorpage.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ProfileComponent,
     LoginComponent,
-    NavComponent
+    NavComponent,
+    ErrorpageComponent
   ],
   imports: [
     BrowserModule,
